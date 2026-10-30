@@ -1,0 +1,20 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>Valkyrians – Autos Tamponneuses</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<canvas id="c"></canvas>
+<div id="menu" class="screen">
+ <h1>Valkyrians<br><small>Autos Tamponneuses</small></h1>
+ <p class="sub">Choisis ta voiture :</p>
+ <div id="cars"></div>
+ <button id="play" class="big">Jouer !</button>
+ <p class="help">Clavier : flèches/WASD pour conduire · Espace/J = Fusil à balle géante · K = Lance-filet · L = Fusil à glace · E/I = Pouvoir spécial<br>Mobile : joystick à gauche, 4 boutons à droite</p>
+ <p class="copy">© 2026 Sania Labbé (Valkyrie) – Tous droits réservés</p>
+ <p class="projet">Projet Valkyrie : une part des ventes soutient une fondation pour les femmes victimes d'agression.</p>
+</div>
+<div id="over" class="screen hidden"><h1 id="winner"></h1><div id="ranking"></div><button id="again" class="big">Rejouer</button><p class="copy">© 2026 Sania Labbé (Valkyrie)</p></div>
+<div id="touch" class="hidden">
+ <div id="stick"><div id="knob"></div></div>
+ <div id="btns"><button data-w="0">Balle géante</button><button data-w="1">Filet</button><button data-w="2">Glace</button><button data-w="3" id="spBtn">Pouvoir</button></div>
+</div>
+<script src="game.js"></script></body></html>

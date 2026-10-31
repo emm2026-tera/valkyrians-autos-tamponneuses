@@ -18,3 +18,4 @@ h1{font-size:clamp(28px,7vw,60px);color:#ffd86b;text-shadow:0 0 18px #ff5fd2}h1 
 #btns button{height:64px;border-radius:50%;border:2px solid #fff8;background:#b03cff99;color:#fff;font-weight:bold;font-size:12px}
 #btns button.cd{opacity:.4}#spBtn{background:#ff5fd2aa!important}
 #ranking{font-size:18px;line-height:1.6}
+.rules{font-size:14px;max-width:700px;background:#0005;padding:8px 12px;border-radius:12px}
